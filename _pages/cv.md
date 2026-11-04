@@ -74,10 +74,13 @@ SIPE 4th Conference · Aug 2, 2025
 
 ## Mentoring & Community
 
-- CodeIt Sprint — Spring 5th backend mentor · Jul 2025 – Jan 2026
-- Guro Youth Mentor — backend mentor · Jun – Dec 2025
-- CMC 17th — server developer · May – Aug 2025
-- SIPE — 3rd, 4th, and 5th cohorts
-- JAVACAFE — member since Sep 2024
+<table>
+<thead><tr><th scope="col">Activity</th><th scope="col">Role</th><th scope="col">Period</th></tr></thead>
+<tbody>
+{% for item in site.data.community %}
+<tr><td>{{ item.activity }}</td><td>{{ item.role }}</td><td>{{ item.period }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
 
 [Writing & talks](/writing/)

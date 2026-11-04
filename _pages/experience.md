@@ -23,10 +23,11 @@ My industry experience provides a foundation in implementing reliable systems, w
 
 ## Mentoring & Community
 
-| Activity                  | Role                      | Period              |
-| ------------------------- | ------------------------- | ------------------- |
-| CodeIt Sprint, Spring 5th | Backend mentor            | Jul 2025 – Jan 2026 |
-| Guro Youth Mentor         | Backend mentor            | Jun – Dec 2025      |
-| CMC 17th                  | Server developer          | May – Aug 2025      |
-| SIPE                      | 3rd, 4th, and 5th cohorts | 3rd–5th cohorts     |
-| JAVACAFE                  | Member                    | Since Sep 2024      |
+<table>
+<thead><tr><th scope="col">Activity</th><th scope="col">Role</th><th scope="col">Period</th></tr></thead>
+<tbody>
+{% for item in site.data.community %}
+<tr><td>{{ item.activity }}</td><td>{{ item.role }}</td><td>{{ item.period }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
