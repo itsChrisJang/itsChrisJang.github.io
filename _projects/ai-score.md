@@ -6,6 +6,8 @@ importance: 4
 category: products
 ---
 
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+
 ## Overview
 
 An independent project using LLM/AI technology to match user tendencies with animal characters and generate personalized insights.

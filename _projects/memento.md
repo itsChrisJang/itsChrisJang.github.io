@@ -6,6 +6,8 @@ importance: 2
 category: products
 ---
 
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+
 ## Overview
 
 A digital legacy service for managing scattered social accounts, personal assets, and digital traces through a three-stage workflow.

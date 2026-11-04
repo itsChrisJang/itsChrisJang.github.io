@@ -6,6 +6,8 @@ importance: 1
 category: products
 ---
 
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+
 ## Overview
 
 A matching service for urgently filling a single vacant spot in workplace social gatherings and rotation dating events.

@@ -3,10 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Digital Twins · Simulation · Optimization
-profile:
-  align: right
-  image: chris.jpg
-  image_circular: true
+profile: false
 selected_papers: false
 social: true
 announcements:
@@ -17,6 +14,9 @@ latest_posts:
 
 <link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
 
+<div class="academic-hero">
+<div class="academic-hero-copy" markdown="1">
+
 <p class="academic-kicker">INCOMING GRADUATE STUDENT · MARCH 2027</p>
 
 I’m **Junhwan (Chris) Jang**, preparing to begin graduate study at **Dongguk University** with [**Prof. Sojung Kim**](https://sites.google.com/site/sojungk8/) in the **Simulation-Based Optimization Laboratory**.
@@ -24,6 +24,10 @@ I’m **Junhwan (Chris) Jang**, preparing to begin graduate study at **Dongguk U
 I am interested in **digital twins, simulation, and optimization**—understanding how complex systems behave and using models to inform better decisions. My background is in software engineering, where I have built and operated production backend services and independent products.
 
 <div class="academic-links"><a href="/cv/">Curriculum Vitae ↗</a><a href="/publications/">Publications ↗</a><a href="https://github.com/itsChrisJang">GitHub ↗</a></div>
+
+</div>
+<img class="academic-portrait" src="/assets/img/chris.jpg" alt="Junhwan (Chris) Jang" width="168" height="168">
+</div>
 
 ## Education
 

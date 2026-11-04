@@ -6,6 +6,8 @@ importance: 3
 category: products
 ---
 
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+
 ## Overview
 
 A golf guidance product designed to help golfers understand carry distance and shot consistency using environmental variables and swing data.
