@@ -47,12 +47,18 @@ My planned graduate research will focus on **digital twins, simulation, and opti
 
 ### Software Engineering Foundation
 
-| Capability                 | Engineering foundation                                          | Connection to research                                                                      |
-| -------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| System implementation      | Java, Spring Boot, Spring WebFlux; service design and operation | Implementing system interfaces and the software infrastructure around simulation models     |
-| Event and state management | Redis, Kafka, concurrency control, distributed locks            | Handling events and maintaining consistent system state in data-connected applications      |
-| Performance evaluation     | API profiling, SQL execution plans, indexing, caching           | Measuring runtime behavior, locating bottlenecks, and comparing implementation alternatives |
-| Experiment delivery        | Product planning, deployment, and operation                     | Turning models and decision-support ideas into usable software prototypes                   |
+| Capability                        | Foundation & development focus                                                              | Research application                                                                        |
+| --------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| System implementation             | Java, Spring Boot, Spring WebFlux; service design and operation                             | Implementing system interfaces and the software infrastructure around simulation models     |
+| Event and state management        | Redis, Kafka, concurrency control, distributed locks                                        | Handling events and maintaining consistent system state in data-connected applications      |
+| Performance evaluation            | API profiling, SQL execution plans, indexing, caching                                       | Measuring runtime behavior, locating bottlenecks, and comparing implementation alternatives |
+| Experiment delivery               | Product planning, deployment, and operation                                                 | Turning models and decision-support ideas into usable software prototypes                   |
+| Simulation model implementation   | Planned lab development: agent-based models, discrete-event simulation, and system dynamics | Translating system assumptions into executable models                                       |
+| Digital-twin data integration     | Planned lab development: connecting operational data with model state                       | Keeping virtual system representations aligned with observed behavior                       |
+| Optimization algorithms           | Planned lab development: simulation-based optimization and scenario search                  | Evaluating operational alternatives under constraints and uncertainty                       |
+| Research experiments & validation | Planned lab development: calibration, sensitivity analysis, and reproducible experiments    | Testing model credibility and comparing outcomes systematically                             |
+
+The planned development areas above are priorities for graduate study with Prof. Sojung Kim, beginning in March 2027.
 
 ## Professional Experience
 
