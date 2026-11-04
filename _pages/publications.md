@@ -7,6 +7,10 @@ nav_order: 1
 description: Research papers and preprints.
 ---
 
-Research publications will be listed here as they become publicly available.
-
-{% bibliography %}
+{% capture publication_list %}{% bibliography %}{% endcapture %}
+{% assign publication_text = publication_list | strip_html | strip %}
+{% if publication_text != empty %}
+<div class="publications">{{ publication_list }}</div>
+{% else %}
+Research papers and preprints will be listed here as they become publicly available.
+{% endif %}

@@ -14,7 +14,7 @@ Seoul, South Korea · [Email](mailto:qiiopasd1@gmail.com) · [GitHub](https://gi
 ## Education
 
 - **Dongguk University (동국대학교)** — incoming graduate student.
-  Professor: 김소정.
+  Professor: [Sojung Kim (김소정)](https://sites.google.com/site/sojungk8/).
 - **B.S. in Computer Software Engineering**.
 
 ## Professional experience
@@ -25,6 +25,10 @@ Seoul, South Korea · [Email](mailto:qiiopasd1@gmail.com) · [GitHub](https://gi
 | Blumn AI            | Feb 2023 – Mar 2024 |
 | Mesh Korea (Vroong) | Aug 2022 – Feb 2023 |
 | Startup             | Jan 2020 – Aug 2022 |
+
+## Research Interests
+
+Digital twins · Simulation-based optimization · Multi-paradigm simulation · Operations research
 
 ## Technical focus
 

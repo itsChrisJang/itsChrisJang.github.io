@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Backend Engineer · Incoming Graduate Student at Dongguk University
+subtitle: Incoming Graduate Student · Dongguk University
 profile:
   align: right
   image: chris.jpg
@@ -15,24 +15,60 @@ latest_posts:
   enabled: false
 ---
 
-I’m **Junhwan (Chris) Jang**, a backend engineer working with Java, Spring Boot, Spring WebFlux, Redis, and Kafka.
+I’m **Junhwan (Chris) Jang**, an incoming graduate student at **Dongguk University (동국대학교)**, preparing to study with [**Prof. Sojung Kim (김소정 교수님)**](https://sites.google.com/site/sojungk8/).
 
-I’m preparing to begin graduate study at **Dongguk University (동국대학교)** with **김소정 교수님**.
+My research interests center on **digital twins, simulation, and optimization**. I bring a background in backend engineering, with experience building and operating production services using Java, Spring, Redis, and Kafka.
 
-My engineering work focuses on API performance, concurrency, and reliable backend services. I enjoy connecting production challenges with hands-on experiments, sharing what I learn, and building products from idea to deployment.
+[CV](/cv/) · [Publications](/publications/) · [Projects](/projects/) · [Writing & Talks](/writing/)
 
-[Publications](/publications/) · [Explore my projects](/projects/) · [View my CV](/cv/) · [Writing & talks](/writing/)
+## Education
 
-## Selected work
+- **Dongguk University (동국대학교)** — incoming graduate student.  
+  Preparing to study with Prof. Sojung Kim, who leads the 시뮬레이션 기반 최적화 연구실 in the Department of Industrial & Systems Engineering.
+- **B.S. in Computer Software Engineering**.
 
-- **Production engineering** — backend development at TONYMOLY, Blumn AI, and Mesh Korea (Vroong).
-- **Concurrency & consistency** — a SIPE conference talk on Redis distributed locks in high-traffic promotion events.
-- **Independent products** — real-time matching, digital legacy management, golf distance guidance, and an AI personality experience.
+## Research Interests
 
-## Engineering interests
+- **Digital twins & simulation-based optimization** — modeling system behavior and evaluating operational decisions.
+- **Multi-paradigm simulation** — agent-based modeling, discrete-event simulation, and system dynamics.
+- **Operations research & decision support** — stochastic modeling, supply chain design, and system optimization.
 
-Distributed systems, concurrency control, performance optimization, and service architecture. These reflect my public engineering work and ongoing learning.
+These interests align with [Prof. Kim’s research areas](https://sites.google.com/site/sojungk8/), including renewable energy and smart farming systems.
 
-## Community
+## Publications
 
-I participate in SIPE and JAVACAFE, and have contributed as a backend mentor with CodeIt Sprint and Guro Youth Mentor.
+{% capture publication_list %}{% bibliography %}{% endcapture %}
+{% assign publication_text = publication_list | strip_html | strip %}
+{% if publication_text != empty %}
+<div class="publications">{{ publication_list }}</div>
+{% else %}
+Research papers and preprints will appear here as they become publicly available.
+{% endif %}
+
+[All publications](/publications/)
+
+## Industry Experience
+
+Before graduate study, I worked on backend services, API performance, concurrency control, and production reliability.
+
+| Organization        | Period              |
+| ------------------- | ------------------- |
+| TONYMOLY            | Mar 2024 – Jan 2026 |
+| Blumn AI            | Feb 2023 – Mar 2024 |
+| Mesh Korea (Vroong) | Aug 2022 – Feb 2023 |
+| Startup             | Jan 2020 – Aug 2022 |
+
+[Experience & community activities](/experience/)
+
+## Selected Projects
+
+- [**Bbanggu**](/projects/bbanggu/) — real-time matching for last-minute vacancies in social events.
+- [**Memento**](/projects/memento/) — a digital legacy vault for personal digital traces.
+- [**Carry Wise**](/projects/carry-wise/) — golf carry-distance guidance.
+- [**AI Score**](/projects/ai-score/) — an AI-powered personality experience.
+
+## Talks & Community
+
+I presented a Redis distributed-lock case study at the **SIPE 4th Conference**, sharing production lessons on concurrency and data consistency. I have also participated in SIPE and JAVACAFE and contributed as a backend mentor.
+
+[Writing, talks & resources](/writing/)
