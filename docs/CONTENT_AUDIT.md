@@ -13,7 +13,7 @@ Priority: direct owner corrections, Figma resume, public GitHub profile.
 - SQLD: April 2021; Engineer Information Processing: June 2024 (Figma).
 - Engineering metrics reproduced from Figma; no additional claims added.
 - No personal publications supplied; do not import the advisor’s papers into the owner’s publication record.
-- Selected Projects removed from the homepage; existing project detail pages remain unchanged.
+- Projects menu, listing, and all four product detail pages removed on explicit owner request.
 
 Research areas: https://sites.google.com/site/sojungk8/
 Profile: https://github.com/itsChrisJang

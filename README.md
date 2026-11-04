@@ -28,4 +28,4 @@ Original template: [al-folio](https://github.com/alshedivat/al-folio), MIT licen
 
 Add real papers to `_bibliography/papers.bib` using BibTeX. The Publications page groups entries by year automatically. Supported fields include `doi`, `html`, `pdf`, `code`, `slides`, `abstract`, and `bibtex_show`. Put local paper PDFs in `assets/pdf/` only when they are ready for public distribution. Update the introductory sentence on `_pages/publications.md` when the first paper is added.
 
-Dongguk entry is expected in March 2027. Hanyang is shown by entry date only; no current attendance or completed degree is implied. The Selected Projects section has been removed from the homepage.
+Dongguk entry is expected in March 2027. Hanyang is shown by entry date only; no current attendance or completed degree is implied. The Projects menu, listing, and four product detail pages have been removed at the owner’s request.
