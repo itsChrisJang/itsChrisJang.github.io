@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 nav: true
-nav_order: 4
+nav_order: 5
 description: Junhwan (Chris) Jang · Backend Engineer
 ---
 
@@ -13,7 +13,8 @@ Seoul, South Korea · [Email](mailto:qiiopasd1@gmail.com) · [GitHub](https://gi
 
 ## Education
 
-- **Hanyang University** — M.Eng in Computer Science, Sep 2025 – present (as listed on my GitHub profile).
+- **Dongguk University (동국대학교)** — incoming graduate student.
+  Professor: 김소정.
 - **B.S. in Computer Software Engineering**.
 
 ## Professional experience
@@ -32,4 +33,4 @@ API performance · concurrency control · backend service architecture
 
 ## Projects & activities
 
-[Independent products](/projects/) · [Mentoring & community](/experience/) · [Technical writing & talks](/writing/)
+[Publications](/publications/) · [Independent products](/projects/) · [Mentoring & community](/experience/) · [Technical writing & talks](/writing/)

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Backend Engineer · Seoul, South Korea
+subtitle: Backend Engineer · Incoming Graduate Student at Dongguk University
 profile:
   align: right
   image: chris.jpg
@@ -17,9 +17,11 @@ latest_posts:
 
 I’m **Junhwan (Chris) Jang**, a backend engineer working with Java, Spring Boot, Spring WebFlux, Redis, and Kafka.
 
+I’m preparing to begin graduate study at **Dongguk University (동국대학교)** with **김소정 교수님**.
+
 My engineering work focuses on API performance, concurrency, and reliable backend services. I enjoy connecting production challenges with hands-on experiments, sharing what I learn, and building products from idea to deployment.
 
-[Explore my projects](/projects/) · [View my CV](/cv/) · [Writing & talks](/writing/)
+[Publications](/publications/) · [Explore my projects](/projects/) · [View my CV](/cv/) · [Writing & talks](/writing/)
 
 ## Selected work
 

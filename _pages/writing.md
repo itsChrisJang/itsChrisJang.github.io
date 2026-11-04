@@ -3,7 +3,7 @@ layout: page
 title: Writing & Talks
 permalink: /writing/
 nav: true
-nav_order: 3
+nav_order: 4
 description: Notes from production engineering and community presentations.
 ---
 
