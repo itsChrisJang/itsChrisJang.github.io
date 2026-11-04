@@ -76,23 +76,16 @@ I bring practical experience in building event-driven services, preserving data 
 
 ## Industry Experience
 
-**TONYMOLY** · Mar 2024 – Jan 2026  
-Backend development for commerce services: layered caching, concurrency control, query optimization, and production operations.
-
-**Blumn AI** · Feb 2023 – Mar 2024  
-Backend engineering for messaging and chatbot platforms, including webhook event processing and reactive services.
-
-**Mesh Korea (Vroong)** · Aug 2022 – Feb 2023  
-Backend engineering experience in a logistics technology organization.
+<div class="career-list">
+{% for item in site.data.career %}
+<div class="career-item">
+<div class="education-heading"><strong>{{ item.company }}</strong><span class="period">{{ item.period }}</span></div>
+<p>{{ item.summary }}</p>
+</div>
+{% endfor %}
+</div>
 
 [Full experience & mentoring →](/experience/)
-
-## Selected Projects
-
-- [**Bbanggu**](/projects/bbanggu/) — matching people with last-minute event vacancies.
-- [**Memento**](/projects/memento/) — organizing personal digital assets and legacy information.
-- [**Carry Wise**](/projects/carry-wise/) — golf carry-distance guidance using environmental and swing data.
-- [**AI Score**](/projects/ai-score/) — an AI-powered personality and insight experience.
 
 ## Talks & Writing
 

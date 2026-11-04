@@ -41,12 +41,14 @@ Intended research direction: modeling and evaluating complex systems to support 
 
 ## Professional Experience
 
-| Organization        | Period              |
-| ------------------- | ------------------- |
-| TONYMOLY            | Mar 2024 – Jan 2026 |
-| Blumn AI            | Feb 2023 – Mar 2024 |
-| Mesh Korea (Vroong) | Aug 2022 – Feb 2023 |
-| Startup             | Jan 2020 – Aug 2022 |
+<table>
+<thead><tr><th scope="col">Organization</th><th scope="col">Period</th></tr></thead>
+<tbody>
+{% for item in site.data.career %}
+<tr><td>{{ item.company }}</td><td>{{ item.period }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
 
 [Selected work and responsibilities →](/experience/)
 
@@ -73,9 +75,9 @@ SIPE 4th Conference · Aug 2, 2025
 ## Mentoring & Community
 
 - CodeIt Sprint — Spring 5th backend mentor · Jul 2025 – Jan 2026
-- Guro Youth Mentor — backend mentor · May – Dec 2025
+- Guro Youth Mentor — backend mentor · Jun – Dec 2025
 - CMC 17th — server developer · May – Aug 2025
 - SIPE — 3rd, 4th, and 5th cohorts
 - JAVACAFE — member since Sep 2024
 
-[Independent products](/projects/) · [Writing & talks](/writing/)
+[Writing & talks](/writing/)

@@ -1,0 +1,35 @@
+- company: TONYMOLY
+  period: Mar 2024 – Jan 2026
+  role: Backend Engineering
+  summary: Commerce services, caching, concurrency control, and query optimization.
+  details:
+    - Built and operated commerce services, including event promotions and internal
+      systems.
+    - Developed multi-layer caching and synchronization, reducing average response time
+      from 316.34 ms to 230.79 ms.
+    - Applied Redis Lettuce distributed locks to coordinate promotion participation
+      and preserve data consistency.
+    - Optimized SQL execution plans and indexes; product-detail page loading performance
+      improved by 72%.
+    - Automated review collection workflows with rate limiting and incremental collection.
+- company: Blumn AI
+  period: Feb 2023 – Mar 2024
+  role: Backend Engineering
+  summary: Messaging and chatbot platforms, webhook processing, and reactive services.
+  details:
+    - Implemented a webhook receiver and event-processing services for Cafe24 integrations.
+    - Built reactive data collection workflows using Spring WebFlux and Akka.
+    - Worked with Kafka-based messaging to coordinate data collection tasks.
+    - Designed APIs and MySQL schemas for personalized messaging and reporting.
+- company: Mesh Korea (Vroong)
+  period: Sep 2022 – Oct 2022 · 1 month
+  role: Backend Engineering
+  summary: Short-term backend role in delivery and fulfillment services.
+  details:
+    - Worked on delivery and fulfillment backend services.
+- company: Enterprise Software Company
+  period: Nov 2020 – Jul 2022
+  role: Backend Engineering
+  summary: Systems integration and platform backend development.
+  details:
+    - Worked on systems integration and platform backend development.
