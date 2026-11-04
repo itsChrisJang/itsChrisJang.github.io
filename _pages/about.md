@@ -65,6 +65,21 @@ My intended research direction follows [Prof. Sojung Kim’s work](https://sites
 
 ## Research & Engineering Foundation
 
+### Upcoming Graduate Research
+
+**Simulation-Based Optimization Laboratory · Dongguk University**  
+**Prof. Sojung Kim · Expected start: Mar 2027**
+
+My planned graduate research will focus on **digital twins, simulation, and optimization**, aligned with Prof. Sojung Kim’s research. I aim to build on my software engineering background to implement models, evaluate system behavior, and develop decision-support tools.
+
+| Research direction            | Planned focus                                                                |
+| ----------------------------- | ---------------------------------------------------------------------------- |
+| Digital twins                 | Modeling real-world systems and connecting models with operational data      |
+| Simulation                    | Exploring agent-based models, discrete-event simulation, and system dynamics |
+| Simulation-based optimization | Comparing scenarios and operational decisions under uncertainty              |
+
+### Software Engineering Foundation
+
 I bring practical experience in building event-driven services, preserving data consistency, and evaluating performance. These skills form a software engineering foundation for my transition into simulation and optimization research.
 
 | Capability                 | Engineering foundation                                          | Connection to research                                                                      |

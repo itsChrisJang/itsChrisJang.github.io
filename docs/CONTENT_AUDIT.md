@@ -8,7 +8,7 @@ Priority: direct owner corrections, Figma resume, public GitHub profile.
 - TONYMOLY: March 2024–January 2026 (Figma and GitHub).
 - Blumn AI: February 2023–March 2024 (Figma and GitHub).
 - Vroong: September–October 2022 (Figma), one month (owner), with no explicit duration label displayed. GitHub dates conflict and are not used.
-- Early enterprise software role: November 2020–July 2022 (Figma). English company name unverified; preserve the original company name 에즈원테크시스템즈.
+- Early enterprise software role: November 2020–July 2022 (Figma). English company name unverified; use Asone Tech Systems as an English rendering of the original company name.
 - Guro mentorship: June–December 2025 (Figma); GitHub says May, so use the detailed resume.
 - SQLD: April 2021; Engineer Information Processing: June 2024 (Figma).
 - Engineering metrics reproduced from Figma; no additional claims added.
@@ -20,3 +20,5 @@ Profile: https://github.com/itsChrisJang
 Resume: https://www.figma.com/design/3WXBi1KOgVsfa9TRGjSFrD/
 
 Community periods use YYYY.MM consistently. SIPE aggregate period 2024.10–2026.07 is shown on the Figma resume.
+
+Upcoming graduate research is marked as planned for March 2027, not completed experience; project assignments are not asserted.
