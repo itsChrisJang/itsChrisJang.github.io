@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming Graduate Student · Dongguk University
+subtitle: Digital Twins · Simulation · Optimization
 profile:
   align: right
   image: chris.jpg
@@ -15,25 +15,37 @@ latest_posts:
   enabled: false
 ---
 
-I’m **Junhwan (Chris) Jang**, an incoming graduate student at **Dongguk University (동국대학교)**, preparing to study with [**Prof. Sojung Kim (김소정 교수님)**](https://sites.google.com/site/sojungk8/).
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
 
-My research interests center on **digital twins, simulation, and optimization**. I bring a background in backend engineering, with experience building and operating production services using Java, Spring, Redis, and Kafka.
+<p class="academic-kicker">INCOMING GRADUATE STUDENT · MARCH 2027</p>
 
-[CV](/cv/) · [Publications](/publications/) · [Projects](/projects/) · [Writing & Talks](/writing/)
+I’m **Junhwan (Chris) Jang**, preparing to begin graduate study at **Dongguk University** with [**Prof. Sojung Kim**](https://sites.google.com/site/sojungk8/) in the **Simulation-Based Optimization Laboratory**.
+
+I am interested in **digital twins, simulation, and optimization**—understanding how complex systems behave and using models to inform better decisions. My background is in software engineering, where I have built and operated production backend services and independent products.
+
+<div class="academic-links"><a href="/cv/">Curriculum Vitae ↗</a><a href="/publications/">Publications ↗</a><a href="https://github.com/itsChrisJang">GitHub ↗</a></div>
 
 ## Education
 
-- **Dongguk University (동국대학교)** — incoming graduate student.  
-  Preparing to study with Prof. Sojung Kim, who leads the 시뮬레이션 기반 최적화 연구실 in the Department of Industrial & Systems Engineering.
-- **B.S. in Computer Software Engineering**.
+<div class="education-list">
+{% for item in site.data.education %}
+<div class="education-item">
+  <div class="education-heading"><strong>{{ item.school }}</strong><span class="period">{{ item.period }}</span></div>
+  <div>{{ item.program }}</div>
+  <div class="education-detail">{% if item.url %}<a href="{{ item.url }}">{{ item.detail }}</a>{% else %}{{ item.detail }}{% endif %}</div>
+</div>
+{% endfor %}
+</div>
 
 ## Research Interests
 
-- **Digital twins & simulation-based optimization** — modeling system behavior and evaluating operational decisions.
-- **Multi-paradigm simulation** — agent-based modeling, discrete-event simulation, and system dynamics.
-- **Operations research & decision support** — stochastic modeling, supply chain design, and system optimization.
+<div class="research-grid">
+<article class="research-card"><span class="research-index">01 / MODEL</span><h3>Digital Twins</h3><p>Representing real-world systems to explore behavior, test scenarios, and support operational decisions.</p></article>
+<article class="research-card"><span class="research-index">02 / SIMULATE</span><h3>Simulation</h3><p>Agent-based modeling, discrete-event simulation, and system dynamics for complex interacting systems.</p></article>
+<article class="research-card"><span class="research-index">03 / OPTIMIZE</span><h3>Optimization</h3><p>Simulation-based optimization and operations research for evaluating alternatives under uncertainty.</p></article>
+</div>
 
-These interests align with [Prof. Kim’s research areas](https://sites.google.com/site/sojungk8/), including renewable energy and smart farming systems.
+My intended research direction follows [Prof. Sojung Kim’s work](https://sites.google.com/site/sojungk8/) in digital twins, simulation, and optimization, with applications including supply chains, renewable energy, and smart farming systems.
 
 ## Publications
 
@@ -42,33 +54,47 @@ These interests align with [Prof. Kim’s research areas](https://sites.google.c
 {% if publication_text != empty %}
 <div class="publications">{{ publication_list }}</div>
 {% else %}
-Research papers and preprints will appear here as they become publicly available.
+<div class="publication-empty">Research papers and preprints will be listed here as they become publicly available.</div>
 {% endif %}
 
-[All publications](/publications/)
+[View publication record →](/publications/)
+
+## Research & Engineering Foundation
+
+I bring practical experience in building event-driven services, preserving data consistency, and evaluating performance. These skills form a software engineering foundation for my transition into simulation and optimization research.
+
+| Capability                 | Engineering foundation                                          | Connection to research                                                                      |
+| -------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| System implementation      | Java, Spring Boot, Spring WebFlux; service design and operation | Implementing system interfaces and the software infrastructure around simulation models     |
+| Event and state management | Redis, Kafka, concurrency control, distributed locks            | Handling events and maintaining consistent system state in data-connected applications      |
+| Performance evaluation     | API profiling, SQL execution plans, indexing, caching           | Measuring runtime behavior, locating bottlenecks, and comparing implementation alternatives |
+| Experiment delivery        | Product planning, deployment, and operation                     | Turning models and decision-support ideas into usable software prototypes                   |
 
 ## Industry Experience
 
-Before graduate study, I worked on backend services, API performance, concurrency control, and production reliability.
+**TONYMOLY** · Mar 2024 – Jan 2026  
+Backend development for commerce services: layered caching, concurrency control, query optimization, and production operations.
 
-| Organization        | Period              |
-| ------------------- | ------------------- |
-| TONYMOLY            | Mar 2024 – Jan 2026 |
-| Blumn AI            | Feb 2023 – Mar 2024 |
-| Mesh Korea (Vroong) | Aug 2022 – Feb 2023 |
-| Startup             | Jan 2020 – Aug 2022 |
+**Blumn AI** · Feb 2023 – Mar 2024  
+Backend engineering for messaging and chatbot platforms, including webhook event processing and reactive services.
 
-[Experience & community activities](/experience/)
+**Mesh Korea (Vroong)** · Aug 2022 – Feb 2023  
+Backend engineering experience in a logistics technology organization.
+
+[Full experience & mentoring →](/experience/)
 
 ## Selected Projects
 
-- [**Bbanggu**](/projects/bbanggu/) — real-time matching for last-minute vacancies in social events.
-- [**Memento**](/projects/memento/) — a digital legacy vault for personal digital traces.
-- [**Carry Wise**](/projects/carry-wise/) — golf carry-distance guidance.
-- [**AI Score**](/projects/ai-score/) — an AI-powered personality experience.
+- [**Bbanggu**](/projects/bbanggu/) — matching people with last-minute event vacancies.
+- [**Memento**](/projects/memento/) — organizing personal digital assets and legacy information.
+- [**Carry Wise**](/projects/carry-wise/) — golf carry-distance guidance using environmental and swing data.
+- [**AI Score**](/projects/ai-score/) — an AI-powered personality and insight experience.
 
-## Talks & Community
+## Talks & Writing
 
-I presented a Redis distributed-lock case study at the **SIPE 4th Conference**, sharing production lessons on concurrency and data consistency. I have also participated in SIPE and JAVACAFE and contributed as a backend mentor.
+**Data Consistency in High-Concurrency Events: A Redis Distributed Lock Case Study**  
+SIPE 4th Conference · Aug 2, 2025
 
-[Writing, talks & resources](/writing/)
+Production lessons on race conditions, fair access, atomic operations, and the tradeoffs of lock-based designs.
+
+[Talks, engineering articles & resources →](/writing/)
