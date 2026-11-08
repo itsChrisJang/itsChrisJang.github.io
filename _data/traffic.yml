@@ -1,3 +1,3 @@
-enabled: false
-endpoint: ""
+enabled: true
+endpoint: https://junhwanjang.goatcounter.com
 timezone: Asia/Seoul
