@@ -22,3 +22,10 @@ Resume: https://www.figma.com/design/3WXBi1KOgVsfa9TRGjSFrD/
 Community periods use YYYY.MM consistently. SIPE aggregate period 2024.10–2026.07 is shown on the Figma resume.
 
 Upcoming graduate research is marked as planned for March 2027, not completed experience; project assignments are not asserted.
+
+## Bilingual presentation (November 2026)
+
+- English remains the default. Korean counterparts live at `/ko/`, `/ko/publications/`, `/ko/experience/`, `/ko/writing/`, and `/ko/cv/`.
+- Both languages read dates from the same education, career, and community records. Korean wording is stored beside English wording in those records.
+- Keep corresponding narrative pages synchronized when changing facts. Language links preserve the current page; `site-language.js` adapts the shared theme navigation.
+- Planned graduate skills remain explicitly prospective. The homepage collapses the full engineering foundation table; the CV presents it in full for reading and printing.

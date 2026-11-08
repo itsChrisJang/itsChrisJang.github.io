@@ -3,11 +3,20 @@
   period: Mar 2027 (expected)
   detail: "Prospective advisor: Prof. Sojung Kim · Simulation-Based Optimization Laboratory"
   url: https://sites.google.com/site/sojungk8/
+  school_ko: 동국대학교
+  program_ko: 대학원 입학 예정
+  detail_ko: "예정 지도교수: 김소정 교수 · 시뮬레이션 기반 최적화 연구실"
 - school: Hanyang University
   program: Master’s program in Computer Engineering
   period: Entered Sep 2025
   detail: Graduate School of Engineering
+  school_ko: 한양대학교
+  program_ko: 컴퓨터공학 석사 과정
+  detail_ko: 공학대학원
 - school: Dongyang Mirae University
   program: Bachelor’s degree in Computer Software Engineering
   period: Mar 2023 – Feb 2024
   detail: Advanced major program (bachelor’s degree completion).
+  school_ko: 동양미래대학교
+  program_ko: 컴퓨터소프트웨어공학 학사
+  detail_ko: 학사학위 전공심화 과정

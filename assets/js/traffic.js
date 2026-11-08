@@ -31,6 +31,9 @@
       }
     })
   ).then(() => {
-    if (failed) panel.querySelector('[role="status"]').textContent = "Some visit statistics are temporarily unavailable. Please try again later.";
+    if (failed)
+      panel.querySelector('[role="status"]').textContent = location.pathname.startsWith("/ko/")
+        ? "일부 방문 통계를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요."
+        : "Some visit statistics are temporarily unavailable. Please try again later.";
   });
 })();

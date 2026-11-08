@@ -1,15 +1,25 @@
 - activity: CodeIt Sprint, Spring 5th
   role: Backend mentor
   period: 2025.07 – 2026.01
+  activity_ko: 코드잇 스프린트 Spring 5기
+  role_ko: 백엔드 멘토
 - activity: Guro Youth Mentor
   role: Backend mentor
   period: 2025.06 – 2025.12
+  activity_ko: 구로 청년 멘토
+  role_ko: 백엔드 멘토
 - activity: CMC 17th
   role: Server developer
   period: 2025.05 – 2025.08
+  activity_ko: CMC 17기
+  role_ko: 서버 개발자
 - activity: SIPE
   role: Member · 3rd–5th cohorts
   period: 2024.10 – 2026.07
+  activity_ko: SIPE
+  role_ko: 3–5기 회원
 - activity: JAVACAFE
   role: Member
   period: 2024.09 – Present
+  activity_ko: 자바카페
+  role_ko: 회원

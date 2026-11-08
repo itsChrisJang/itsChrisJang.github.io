@@ -7,7 +7,10 @@ nav_order: 5
 description: Junhwan (Chris) Jang · Research interests and engineering experience
 ---
 
+<link rel="alternate" hreflang="ko" href="{{ site.url }}/ko/cv/">
 <link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+
+<div class="page-tools"><span class="page-label">RESEARCH & ENGINEERING</span><nav class="language-switch" aria-label="Language"><a href="/cv/" lang="en" hreflang="en" aria-current="page">EN</a><a href="/ko/cv/" lang="ko" hreflang="ko">한국어</a></nav></div>
 
 [Email](mailto:qiiopasd1@gmail.com) · [GitHub](https://github.com/itsChrisJang) · [LinkedIn](https://www.linkedin.com/in/jun-hwan-jang-aa7567209/)  
 Seoul, South Korea
@@ -40,12 +43,6 @@ Intended research direction: modeling and evaluating complex systems to support 
 **Prof. Sojung Kim · Expected start: Mar 2027**
 
 My planned graduate research will focus on **digital twins, simulation, and optimization**, aligned with Prof. Sojung Kim’s research. I aim to build on my software engineering background to implement models, evaluate system behavior, and develop decision-support tools.
-
-| Research direction            | Planned focus                                                                |
-| ----------------------------- | ---------------------------------------------------------------------------- |
-| Digital twins                 | Modeling real-world systems and connecting models with operational data      |
-| Simulation                    | Exploring agent-based models, discrete-event simulation, and system dynamics |
-| Simulation-based optimization | Comparing scenarios and operational decisions under uncertainty              |
 
 ### Software Engineering Foundation
 
@@ -111,3 +108,5 @@ SIPE 4th Conference · Aug 2, 2025
 {% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
 <script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
+
+<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>

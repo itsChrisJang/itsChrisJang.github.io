@@ -7,7 +7,10 @@ nav_order: 4
 description: Engineering case studies on system behavior, consistency, and performance.
 ---
 
+<link rel="alternate" hreflang="ko" href="{{ site.url }}/ko/writing/">
 <link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+
+<div class="page-tools"><span class="page-label">RESEARCH & ENGINEERING</span><nav class="language-switch" aria-label="Language"><a href="/writing/" lang="en" hreflang="en" aria-current="page">EN</a><a href="/ko/writing/" lang="ko" hreflang="ko">한국어</a></nav></div>
 
 Case studies from my engineering work explore how systems behave under load, how shared state remains consistent, and how implementation choices affect performance. They provide context for the engineering experience I bring to simulation and optimization research.
 
@@ -49,3 +52,5 @@ Articles are in Korean; titles above are English descriptions.
 {% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
 <script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
+
+<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>

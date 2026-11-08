@@ -12,7 +12,10 @@ latest_posts:
   enabled: false
 ---
 
+<link rel="alternate" hreflang="ko" href="{{ site.url }}/ko/">
 <link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+
+<div class="page-tools"><span class="page-label">RESEARCH & ENGINEERING</span><nav class="language-switch" aria-label="Language"><a href="/" lang="en" hreflang="en" aria-current="page">EN</a><a href="/ko/" lang="ko" hreflang="ko">한국어</a></nav></div>
 
 <div class="academic-hero">
 <div class="academic-hero-copy" markdown="1">
@@ -74,11 +77,8 @@ My intended research direction follows [Prof. Sojung Kim’s work](https://sites
 
 My planned graduate research will focus on **digital twins, simulation, and optimization**, aligned with Prof. Sojung Kim’s research. I aim to build on my software engineering background to implement models, evaluate system behavior, and develop decision-support tools.
 
-| Research direction            | Planned focus                                                                |
-| ----------------------------- | ---------------------------------------------------------------------------- |
-| Digital twins                 | Modeling real-world systems and connecting models with operational data      |
-| Simulation                    | Exploring agent-based models, discrete-event simulation, and system dynamics |
-| Simulation-based optimization | Comparing scenarios and operational decisions under uncertainty              |
+<details class="foundation-details" markdown="1">
+<summary>Software Engineering Foundation <span>Experience & planned research skills</span></summary>
 
 ### Software Engineering Foundation
 
@@ -96,6 +96,8 @@ I bring practical experience in building event-driven services, preserving data 
 | Research experiments & validation | Planned lab development: calibration, sensitivity analysis, and reproducible experiments    | Testing model credibility and comparing outcomes systematically                             |
 
 The planned development areas above are priorities for graduate study with Prof. Sojung Kim, beginning in March 2027.
+
+</details>
 
 ## Industry Experience
 
@@ -137,3 +139,5 @@ Production lessons on race conditions, fair access, atomic operations, and the t
 {% endif %}
 
 <script src="{{ "/assets/js/traffic.js" | relative_url }}" defer></script>
+
+<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
