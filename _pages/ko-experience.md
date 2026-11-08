@@ -9,7 +9,7 @@ description: 서비스 개발·운영, 성능 평가, 그리고 개발 멘토링
 ---
 
 <link rel="alternate" hreflang="en" href="{{ site.url }}/experience/">
-<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}?v=20261108-2">
 
 <div class="page-tools"><span class="page-label">연구와 엔지니어링</span><nav class="language-switch" aria-label="언어 선택"><a href="/experience/" lang="en" hreflang="en">EN</a><a href="/ko/experience/" lang="ko" hreflang="ko" aria-current="page">한국어</a></nav></div>
 
@@ -40,4 +40,4 @@ description: 서비스 개발·운영, 성능 평가, 그리고 개발 멘토링
 <script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
 
-<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/site-language.js" | relative_url }}?v=20261108-2" defer></script>

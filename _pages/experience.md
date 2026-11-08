@@ -8,7 +8,7 @@ description: Production systems, performance evaluation, and engineering mentors
 ---
 
 <link rel="alternate" hreflang="ko" href="{{ site.url }}/ko/experience/">
-<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}?v=20261108-2">
 
 <div class="page-tools"><span class="page-label">RESEARCH & ENGINEERING</span><nav class="language-switch" aria-label="Language"><a href="/experience/" lang="en" hreflang="en" aria-current="page">EN</a><a href="/ko/experience/" lang="ko" hreflang="ko">한국어</a></nav></div>
 
@@ -39,4 +39,4 @@ My industry experience provides a foundation in implementing reliable systems, w
 <script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
 
-<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/site-language.js" | relative_url }}?v=20261108-2" defer></script>

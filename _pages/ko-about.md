@@ -14,7 +14,7 @@ latest_posts:
 ---
 
 <link rel="alternate" hreflang="en" href="{{ site.url }}/">
-<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}?v=20261108-2">
 
 <div class="page-tools"><span class="page-label">연구와 엔지니어링</span><nav class="language-switch" aria-label="언어 선택"><a href="/" lang="en" hreflang="en">EN</a><a href="/ko/" lang="ko" hreflang="ko" aria-current="page">한국어</a></nav></div>
 
@@ -139,6 +139,6 @@ SIPE 4기 사담콘 · 2025.08.02
 </section>
 {% endif %}
 
-<script src="{{ "/assets/js/traffic.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/traffic.js" | relative_url }}?v=20261108-2" defer></script>
 
-<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/site-language.js" | relative_url }}?v=20261108-2" defer></script>

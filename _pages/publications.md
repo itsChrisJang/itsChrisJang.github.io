@@ -8,7 +8,7 @@ description: Research papers and preprints.
 ---
 
 <link rel="alternate" hreflang="ko" href="{{ site.url }}/ko/publications/">
-<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}?v=20261108-2">
 
 <div class="page-tools"><span class="page-label">RESEARCH & ENGINEERING</span><nav class="language-switch" aria-label="Language"><a href="/publications/" lang="en" hreflang="en" aria-current="page">EN</a><a href="/ko/publications/" lang="ko" hreflang="ko">한국어</a></nav></div>
 
@@ -24,4 +24,4 @@ description: Research papers and preprints.
 <script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
 
-<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/site-language.js" | relative_url }}?v=20261108-2" defer></script>

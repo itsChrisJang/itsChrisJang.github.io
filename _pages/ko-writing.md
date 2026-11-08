@@ -9,7 +9,7 @@ description: 시스템 동작, 데이터 정합성, 성능에 관한 실무 기�
 ---
 
 <link rel="alternate" hreflang="en" href="{{ site.url }}/writing/">
-<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}?v=20261108-2">
 
 <div class="page-tools"><span class="page-label">연구와 엔지니어링</span><nav class="language-switch" aria-label="언어 선택"><a href="/writing/" lang="en" hreflang="en">EN</a><a href="/ko/writing/" lang="ko" hreflang="ko" aria-current="page">한국어</a></nav></div>
 
@@ -54,4 +54,4 @@ SQL 실행 계획과 인덱싱을 포함한 성능 개선 과정을 두 편의 �
 <script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
 
-<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/site-language.js" | relative_url }}?v=20261108-2" defer></script>

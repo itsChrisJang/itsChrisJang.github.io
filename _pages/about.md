@@ -13,7 +13,7 @@ latest_posts:
 ---
 
 <link rel="alternate" hreflang="ko" href="{{ site.url }}/ko/">
-<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}?v=20261108-2">
 
 <div class="page-tools"><span class="page-label">RESEARCH & ENGINEERING</span><nav class="language-switch" aria-label="Language"><a href="/" lang="en" hreflang="en" aria-current="page">EN</a><a href="/ko/" lang="ko" hreflang="ko">한국어</a></nav></div>
 
@@ -138,6 +138,6 @@ Production lessons on race conditions, fair access, atomic operations, and the t
 </section>
 {% endif %}
 
-<script src="{{ "/assets/js/traffic.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/traffic.js" | relative_url }}?v=20261108-2" defer></script>
 
-<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/site-language.js" | relative_url }}?v=20261108-2" defer></script>

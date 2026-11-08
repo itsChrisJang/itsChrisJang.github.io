@@ -9,7 +9,7 @@ description: 장준환 (Chris) · 연구 관심 분야 및 엔지니어링 경�
 ---
 
 <link rel="alternate" hreflang="en" href="{{ site.url }}/cv/">
-<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/academic.css" | relative_url }}?v=20261108-2">
 
 <div class="page-tools"><span class="page-label">연구와 엔지니어링</span><nav class="language-switch" aria-label="언어 선택"><a href="/cv/" lang="en" hreflang="en">EN</a><a href="/ko/cv/" lang="ko" hreflang="ko" aria-current="page">한국어</a></nav></div>
 
@@ -110,4 +110,4 @@ SIPE 4기 사담콘 · 2025.08.02
 <script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
 
-<script src="{{ "/assets/js/site-language.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/site-language.js" | relative_url }}?v=20261108-2" defer></script>
