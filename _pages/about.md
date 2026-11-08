@@ -29,6 +29,8 @@ I am interested in **digital twins, simulation, and optimization**—understandi
 <img class="academic-portrait" src="/assets/img/chris.jpg" alt="Junhwan (Chris) Jang" width="168" height="168">
 </div>
 
+<nav class="section-links" aria-label="On this page"><a href="#education">Education</a><a href="#research-interests">Research</a><a href="#publications">Publications</a><a href="#industry-experience">Experience</a></nav>
+
 ## Education
 
 <div class="education-list">
@@ -116,3 +118,22 @@ SIPE 4th Conference · Aug 2, 2025
 Production lessons on race conditions, fair access, atomic operations, and the tradeoffs of lock-based designs.
 
 [Talks, engineering articles & resources →](/writing/)
+
+{% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
+<script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}
+
+{% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
+<section class="site-traffic" aria-labelledby="traffic-heading" data-traffic-endpoint="{{ site.data.traffic.endpoint | escape }}">
+<h2 id="traffic-heading">Site Visits</h2>
+<div class="traffic-grid">
+<div><span>Today</span><strong data-count="today">—</strong></div>
+<div><span>Last 7 days</span><strong data-count="week">—</strong></div>
+<div><span>All time</span><strong data-count="total">—</strong></div>
+</div>
+<p class="traffic-note" role="status">Visits are counted in Korea Standard Time. Updates may be delayed by up to four hours.</p>
+<noscript>Visit statistics require JavaScript.</noscript>
+</section>
+{% endif %}
+
+<script src="{{ "/assets/js/traffic.js" | relative_url }}" defer></script>

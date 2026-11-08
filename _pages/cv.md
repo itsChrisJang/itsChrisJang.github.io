@@ -12,6 +12,8 @@ description: Junhwan (Chris) Jang · Research interests and engineering experien
 [Email](mailto:qiiopasd1@gmail.com) · [GitHub](https://github.com/itsChrisJang) · [LinkedIn](https://www.linkedin.com/in/jun-hwan-jang-aa7567209/)  
 Seoul, South Korea
 
+<button class="print-cv" type="button" onclick="window.print()">Print / Save as PDF</button>
+
 ## Education
 
 <div class="education-list">
@@ -105,3 +107,7 @@ SIPE 4th Conference · Aug 2, 2025
 </table>
 
 [Writing & talks](/writing/)
+
+{% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
+<script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}

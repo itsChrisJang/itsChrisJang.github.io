@@ -45,3 +45,7 @@ A two-part account of performance improvements, including SQL execution plans an
 [TONYMOLY Engineering](https://tonymoly-tech.medium.com) · [Personal Engineering Articles](https://chris-jang.medium.com/list/engineering-6507a77522cd)
 
 Articles are in Korean; titles above are English descriptions.
+
+{% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
+<script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}

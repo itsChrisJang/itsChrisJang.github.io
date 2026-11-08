@@ -16,3 +16,7 @@ description: Research papers and preprints.
 {% else %}
 <div class="publication-empty">Research papers and preprints will be listed here as they become publicly available.</div>
 {% endif %}
+
+{% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
+<script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}

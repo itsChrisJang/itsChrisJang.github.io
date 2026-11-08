@@ -31,3 +31,7 @@ My industry experience provides a foundation in implementing reliable systems, w
 {% endfor %}
 </tbody>
 </table>
+
+{% if site.data.traffic.enabled and site.data.traffic.endpoint != empty %}
+<script data-goatcounter="{{ site.data.traffic.endpoint | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}
